@@ -9,7 +9,7 @@
 ## In-Class Assignments
 
 * [ICA1](https://github.com/jlm495/jlm495.github.io/blob/main/ica/ICA1%20--%20How%20to%20Search%20--%20Jenna%20Mandel.pdf)
-* ICA2
+* [ICA2](/ica/ICA2_Jenna_Mandel.pdf)
 * ICA3
 * ICA4
 * ICA5
