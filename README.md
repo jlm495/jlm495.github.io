@@ -27,7 +27,7 @@
 ## Weekly Assignments
 
 * [WA1](https://github.com/jlm495/jlm495.github.io/blob/main/wa/wa1.html)
-* WA2
+* [WA2](https://github.com/jlm495/jlm495.github.io/blob/main/wa/wa2.html)
 * WA3
 * WA4
 * WA5
