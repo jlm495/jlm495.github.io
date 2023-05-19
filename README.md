@@ -8,7 +8,7 @@
 
 ## In-Class Assignments
 
-* [ICA1](https://github.com/jlm495/jlm495.github.io/ica/ICA1%20--%20How%20to%20Search%20--%20Jenna%20Mandel.pdf)
+* [ICA1](https://github.com/jlm495/jlm495.github.io/blob/main/ica/ICA1%20--%20How%20to%20Search%20--%20Jenna%20Mandel.pdf)
 * ICA2
 * ICA3
 * ICA4
@@ -26,7 +26,7 @@
 
 ## Weekly Assignments
 
-* [WA1](https://github.com/jlm495/jlm495.github.io/blob/main/wa1.html)
+* [WA1](https://github.com/jlm495/jlm495.github.io/blob/main/wa/wa1.html)
 * WA2
 * WA3
 * WA4
