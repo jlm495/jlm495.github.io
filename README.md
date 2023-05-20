@@ -10,7 +10,7 @@
 
 * [ICA1](/ica/ICA1%20--%20How%20to%20Search%20--%20Jenna%20Mandel.pdf)
 * [ICA2](/ica/ICA2_Jenna_Mandel.pdf)
-* ICA3
+* [ICA3](/ica/ica3a.html)
 * ICA4
 * ICA5
 * ICA6
