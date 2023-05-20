@@ -2,7 +2,7 @@
 
 ## Projects
 
-* HTML
+* [HTML](/html-midterm)
 * CSS
 * JS
 
