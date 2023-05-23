@@ -10,6 +10,11 @@ body {
     font-size: 10px;
     background-color: #ccc;
   }
+
+  .card p, h2{
+
+    margin: 0;
+  }
   
   /* Rulesets */
   
@@ -22,29 +27,126 @@ body {
     border: 0.2em solid black;
     border-radius: 1.5em;
   }
+
+  h2{
+
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+
+  .card article {
+
+    height: 12em;
+    background-color: #0005;
+    color: lightgray;
+    
+  }
+
+  .card article p{
+
+    padding: 1.5em;
+    line-height: 1.25em;
+  }
   
   /* Styles for footer & header */
 
-  .card footer{
+  .card header{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
     border-radius: 1.5em 1.5em 0 0;
+    box-sizing: content-box;
+    height:3em;
+   
+
   }
   
-  .card header{
+  .card footer{
     background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
     border-radius: 0 0 1.5em 1.5em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    box-sizing: content-box;
+    height:1.5em;
+    
   }
 
   .card header, footer{
 
-    box-sizing: content-box;
-    height: 30px;
-    padding: 10px;
+    padding: 1em;
 
   }
   
   /* Styles for image */
   .card article img{
+    max-height: 100%;
+    float: right;
+  }
+
+  
+  .card2 p, .card2 h2{
+
+    margin: 0;
+  }
+
+  .card2{
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: rgb(177, 213, 254);
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+
+  .card2 h2{
+
+    font-size: 2em;
+    line-height: 1.5em;
+    
+  }
+
+  .card2 article {
+
+    height: 12em;
+    background-color: rgba(244, 238, 238, 0.909);
+    color: rgba(91, 93, 94, 0.999);
+    
+  }
+
+  .card2 article p{
+
+    padding: 1.5em;
+    line-height: 1.25em;
+  }
+  
+  /* Styles for footer & header */
+
+  .card2 header{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+    box-sizing: content-box;
+    height:3em;
+   
+
+  }
+  
+  .card2 footer{
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    box-sizing: content-box;
+    height:1.5em;
+    
+    
+  }
+
+  .card2 header, .card2 footer{
+
+    padding: 1em;
+
+  }
+  
+  /* Styles for image */
+  .card2 article img{
     max-height: 100%;
     float: right;
   }
