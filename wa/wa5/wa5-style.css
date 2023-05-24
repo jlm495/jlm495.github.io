@@ -1,0 +1,87 @@
+body{
+
+    background:url(life-on-mars-2.jpeg) no-repeat;
+    background-size: 100%;
+}
+
+#top-box{
+
+    background: white;
+    box-sizing: content-box;
+    width: 170px;
+    position:relative; 
+    top:600px; 
+    left:0px; 
+    margin-left:0px; 
+    margin-right:0px;
+    margin-bottom: 0px;
+    color:red;
+    padding:4px;
+    text-align: center;
+
+}
+
+#live{
+
+    position: relative;
+    top: -100px;
+    right: -1200px;
+    color:rgba(255, 255, 255, 0.55)
+
+}
+
+#bottom-box{
+
+    color:white;
+    padding:8px;
+    background: red;
+    box-sizing: content-box;
+    width: 1250px;
+    position:relative; 
+    top:600px; 
+    left:0px; 
+    margin-left:0px; 
+    margin-right:0px;
+    margin-top:0px;
+    border-left: solid white;
+
+
+}
+
+table{
+
+    border: solid red;
+    background: white;
+    box-sizing: content-box;
+    width:250px;
+    margin:0;
+    padding:6px;
+    text-align: left;
+}
+
+th{
+    border-right:solid red;
+    box-sizing:content-box;
+}
+
+th, td{
+    width:100px;
+    margin-top:0px
+}
+
+#stats-title{
+
+    border: solid red;
+    background: white;
+    box-sizing: content-box;
+    width: 244px;
+    margin-bottom:0px;
+    text-align: center;
+}
+
+#space-news{
+
+    position:relative;
+    top:-150px;
+    color:rgba(255, 255, 255, 0.55);
+}
