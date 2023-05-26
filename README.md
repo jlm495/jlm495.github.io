@@ -12,9 +12,9 @@
 * [ICA2](/ica/ICA2_Jenna_Mandel.pdf)
 * [ICA3](/ica/ica3a.html)
 * [ICA4](/ica/ica4.html)
-* ICA5
-* ICA6
-* ICA7
+* [ICA5](/ica/ica5/ica5.html)
+* [ICA6](/ica/ica6/ica6.html)
+* [ICA7](/ica/ica7/ica7.html)
 * ICA8
 * ICA9
 * ICA10
@@ -30,9 +30,9 @@
 * [WA2](/wa/wa2.html)
 * [WA3](/wa/wa3.html)
 * [WA4](/wa/wa4/wa4.html)
-* WA5
-* WA6
-* WA7
+* [WA5](/wa/wa5/wa5.html)
+* [WA6](/wa/wa6/wa6.html)
+* [WA7](/wa/wa7/wa7.html)
 * WA8
 * WA9
 * WA10

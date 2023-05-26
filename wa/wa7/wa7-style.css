@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(2, 2, 30, 0.9) 80%, lightskyblue 90%) no-repeat, url(stars.jpeg) no-repeat;
+    background-size: 200%;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background: lightskyblue;
+    transition-duration: 3s;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+#red-ball{
+    background: url(planet.png);
+    background-size:contain;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    transition-duration:3s
+}
+
+h1{
+
+    color:white;
+    font: Courier;
+}
+
+#light-blue-rocket{
+
+    height: 25px;
+    width: auto;
+    position: relative;
+    bottom:50vh;
+    right:50vw;
+    animation-name:lb-rocket-move;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+
+}
+
+#red-rocket{
+
+    height:25px;
+    width: 25px;
+    position: relative;
+    animation-name: red-rocket-move;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+    bottom:40vh;
+    left:-60vw;
+}
+
+@keyframes lb-rocket-move{
+
+    0%{bottom:-60vh; right:-60vw}
+    100%{bottom:60vh; right: 60vw}
+}
+
+@keyframes red-rocket-move{
+
+    0%{bottom: 40vh; left: -60vw}
+    100%{bottom: 60vh; left:-20vw}
+}
+
+#red-ball:hover{
+
+    background: yellow;
+}
+
+nav:hover{
+
+    background:rgb(98, 14, 177);
+}
