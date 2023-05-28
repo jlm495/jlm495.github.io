@@ -184,12 +184,14 @@ a:link,
     
     nav ul{
     
-        font-size:9px;
+        font-size:12px;
         list-style: none;
         line-height:100px;
-        margin-right:50px;
+        margin-right:5px;
         text-align:center;
         text-shadow: 2px 2px 2px white;
+        position:relative;
+        left:-20px;
     }
     
     
