@@ -1,0 +1,412 @@
+html{
+
+    width:fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    background:linear-gradient(white 20%, rgba(0, 0, 0, 0.537) 70%, rgba(176, 196, 222, 0.694) 90%);
+    
+
+
+}
+
+#navbar-title{
+
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow:3px 3px 3px black;
+}
+
+/*.grid{
+
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1980px;
+    display: grid;
+    grid-template-columns: 4fr 15fr;
+    grid-gap: 20px;
+    justify-content: space-around;
+    align-content: space-between;
+} */
+
+nav{
+    background: linear-gradient(rgb(0, 0, 55) 20%, lightsteelblue 80%, rgb(176, 216, 242) 90%);
+    padding: .5em;
+    position:fixed;
+    top:0;
+    left:0;
+    float:left;
+    margin-left:-10px;
+    margin-top:-10px;
+    width:400px;
+    height:800px;
+    text-align: center;
+    border:3px solid gray;
+	
+}
+
+nav ul{
+
+    font-size:24px;
+    list-style: none;
+    line-height:100px;
+    margin-right:50px;
+    text-align:center;
+    text-shadow: 3px 3px 3px white;
+}
+
+
+
+.section-title{
+
+    text-align: center;
+    position:relative;
+    left:500px;
+    margin-top:50px;
+    text-shadow:3px 3px 3px lightgray;
+}
+
+p{
+    text-align: left;
+    margin:20px;
+    box-sizing: content-box;
+    width:700px;
+    height:auto;
+    position:relative;
+    left:550px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+hr{
+
+    position:relative;
+    left:500px;
+}
+
+#me{
+
+    width:400px;
+    height:auto;
+    position: relative;
+    left:670px;
+}
+
+#contact{
+
+    position:relative;
+    left:550px;
+    font-size:18px;
+}
+
+#dirtbike{
+
+    position: relative;
+    left:675px;
+    width:400px;
+    height:auto;
+}
+
+#group{
+
+    width:400px;
+    height:auto;
+    position:relative;
+    left:650px;
+}
+img{
+    border:10px solid black;
+    box-shadow: 3px 3px 3px gold;
+}
+
+a:link,
+  a:visited {
+    color: white;
+   
+  }
+
+  a:hover {
+    text-decoration-color: gold;
+    color:gold;
+    
+  }
+
+  #email{
+
+    text-shadow:2px 2px 2px black
+  }
+
+  .skills{
+
+    position:relative;
+    left:550px;
+
+
+  }
+
+  /* screen widths between __ and 1001px */
+  @media screen and (max-width:1112px){
+
+    html{
+
+        width:fit-content;
+        font-family: 'Courier New', Courier, monospace;
+        background:linear-gradient(white 20%, rgba(0, 0, 0, 0.537) 70%, rgba(176, 196, 222, 0.694) 90%);
+        
+    
+    
+    }
+    
+    #navbar-title{
+    
+        color:white;
+        text-align: center;
+        font-size: 20px;
+        text-shadow:3px 3px 3px black;
+    }
+    
+    
+    nav{
+        background: linear-gradient(rgb(0, 0, 55) 20%, lightsteelblue 80%, rgb(176, 216, 242) 90%);
+        padding: .5em;
+        position:fixed;
+        top:0;
+        left:0;
+        float:left;
+        margin-left:-10px;
+        margin-top:-10px;
+        width:200px;
+        height:800px;
+        text-align: center;
+        border:3px solid gray;
+        
+    }
+    
+    nav ul{
+    
+        font-size:9px;
+        list-style: none;
+        line-height:100px;
+        margin-right:50px;
+        text-align:center;
+        text-shadow: 2px 2px 2px white;
+    }
+    
+    
+    
+    .section-title{
+    
+        text-align: center;
+        position:relative;
+        left:250px;
+        margin-top:50px;
+        text-shadow:3px 3px 3px lightgray;
+        font-size:24px;
+    }
+    
+    p{
+        text-align: left;
+        margin:10px;
+        box-sizing: content-box;
+        width:350px;
+        height:auto;
+        position:relative;
+        left:275px;
+        line-height: 15px;
+        font-size: 9px;
+    }
+    
+    hr{
+    
+        position:relative;
+        left:250px;
+    }
+    
+    #me{
+    
+        width:200px;
+        height:auto;
+        position: relative;
+        left:335px;
+    }
+    
+    #contact{
+    
+        position:relative;
+        left:275px;
+        font-size:9px;
+    }
+    
+    #dirtbike{
+    
+        position: relative;
+        left:337.5px;
+        width:200px;
+        height:auto;
+    }
+    
+    #group{
+    
+        width:200px;
+        height:auto;
+        position:relative;
+        left:325px;
+    }
+    img{
+        border:5px solid black;
+        box-shadow: 2px 2px 2px gold;
+    }
+    
+    a:link,
+      a:visited {
+        color: white;
+       
+      }
+    
+      a:hover {
+        text-decoration-color: gold;
+        color:gold;
+        
+      }
+    
+      #email{
+    
+        text-shadow:2px 2px 2px black
+      }
+  }
+
+  /* for iphones*/
+
+  /* screen widths below 900 */
+  @media screen and (max-width:500px){
+
+    html{
+
+        width:fit-content;
+        font-family: 'Courier New', Courier, monospace;
+        background:linear-gradient(white 20%, rgba(0, 0, 0, 0.537) 70%, rgba(176, 196, 222, 0.694) 90%);
+        
+    
+    
+    }
+    
+    #navbar-title{
+    
+        color:white;
+        text-align: center;
+        font-size: 10px;
+        text-shadow:1px 1px 1px black;
+    }
+    
+    
+    nav{
+        background: linear-gradient(rgb(0, 0, 55) 20%, lightsteelblue 80%, rgb(176, 216, 242) 90%);
+        padding: .5em;
+        position:relative;
+        align-self: center;
+        position:fixed;
+        top:0;
+        left:5%;
+        width:320px;
+        height:50px;
+        text-align: center;
+        border:3px solid gray;
+        margin:0;
+    }
+    
+    nav ul{
+    
+        display:flex;
+        font-size:5px;
+        justify-content: space-between;
+        list-style: none;
+        line-height:0px;
+        text-align:center;
+        text-shadow: 1px 1px 1px white;
+    }
+    
+    
+    
+    .section-title{
+    
+        text-align: center;
+        position:relative;
+        left:20%;
+        margin-top:100px;
+        text-shadow:2px 2px 2px lightgray;
+        font-size:24px;
+    }
+    
+    p{
+        text-align: left;
+        margin:10px;
+        box-sizing: content-box;
+        width:275px;
+        height:auto;
+        position:relative;
+        left:20%;
+        line-height: 15px;
+        font-size: 9px;
+    }
+    
+    hr{
+    
+        position:relative;
+        left:20%;
+    }
+    
+    #me{
+    
+        width:200px;
+        height:auto;
+        position: relative;
+        left:35%;
+    }
+    
+    #contact{
+    
+        position:relative;
+        left:275px;
+        font-size:9px;
+    }
+    
+    #dirtbike{
+    
+        position: relative;
+        left:35%;
+        width:200px;
+        height:auto;
+    }
+    
+    #group{
+    
+        width:200px;
+        height:auto;
+        position:relative;
+        left:35%;
+    }
+    img{
+        border:5px solid black;
+        box-shadow: 2px 2px 2px gold;
+    }
+    
+    a:link,
+      a:visited {
+        color: white;
+       
+      }
+    
+      a:hover {
+        text-decoration-color: gold;
+        color:gold;
+        
+      }
+    
+      #email{
+    
+        text-shadow:2px 2px 2px black
+      }
+      .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+  }
