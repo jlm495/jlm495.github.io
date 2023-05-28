@@ -267,11 +267,14 @@ a:link,
         color:gold;
         
       }
+
+      .skills{
+
+        position:relative;
+        left:275px;
+        font-size:9px;
+    }
     
-      #email{
-    
-        text-shadow:2px 2px 2px black
-      }
   }
 
   /* for iphones*/
@@ -401,12 +404,11 @@ a:link,
         
       }
     
-      #email{
-    
-        text-shadow:2px 2px 2px black
-      }
-      .wrapper {
-        display: flex;
-        justify-content: center;
+     
+    .skills{
+
+        position:relative;
+        left:20%;
+        font-size:9px;
     }
   }
