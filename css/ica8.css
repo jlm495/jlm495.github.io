@@ -1,0 +1,82 @@
+html{
+    background: url(../wa/wa7/stars.jpeg);
+}
+h1{
+    color:white;
+    text-align:center;
+    font-size:50px;
+    font-family: fantasy;
+}
+
+#orange-planet{
+
+    width:180px;
+}
+
+#ring-planet{
+
+    width:600px;
+}
+
+#blue-planet{
+
+    width:900px;
+    position:relative;
+    left:900px;
+}
+
+#purple-planet{
+
+    width:100px;
+    float: right;
+    position:relative;
+    top:-300px;
+}
+
+#button1{
+
+    border:3px solid red;
+    box-shadow: 3px 3px 3px orange;
+    color:white;
+    background:gray;
+    width:70px;
+    text-align:center;
+}
+
+#button2{
+    border:3px solid orange;
+    box-shadow: 3px 3px 3px red;
+    color:white;
+    background:gray;
+    width:100px;
+    text-align:center;
+    float:left;
+}
+
+.msgBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 242px;
+    background: #eee;
+  }
+
+  .msgBox p {
+    line-height: 1.5;
+    padding: 10px 20px;
+    color: white;
+    padding-left: 82px;
+    background-position: 25px center;
+    background-repeat: no-repeat;
+  }
+
+  .msgBox button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.1rem;
+    color: #aaa;
+  }

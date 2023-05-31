@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/ica8.css" >
+    <script defer src="../js/ica8.js"></script>
+</head>
+<body>
+    <h1 id="header">Space</h1>
+
+    <button>Display message box</button>
+
+    <p id="button1">click me!</p>
+    <p id="button2">click me too!</p>
+
+    <img src="../wa/wa7/planet.png" alt="orange planet" id="orange-planet">
+    <img src="../img/planet-ring.png" alt="planet with ring" id="ring-planet">
+    <img src="../img/blue-planet.png" alt="blue planet" id="blue-planet">
+    <img src="../img/purple-planet.png" alt="purple planet" id="purple-planet">
+    
+    <script>
+        
+        const btn = document.querySelector("button");
+        btn.addEventListener("click", () =>
+        displayMessage("Your inbox is almost full — delete some mails", "warning"));
+
+        function displayMessage(msgText, msgType){
+
+            msg.textContent = msgText;
+
+            const body = document.body;
+
+            const panel = document.createElement("div");
+            panel.setAttribute("class", "msgBox");
+            body.appendChild(panel);
+
+            const msg = document.createElement("p");
+            msg.textContent = "This is a message box";
+            panel.appendChild(msg);
+
+            const closeBtn = document.createElement("button");
+            closeBtn.textContent = "x";
+            panel.appendChild(closeBtn);
+
+            closeBtn.addEventListener("click", () =>
+            panel.parentNode.removeChild(panel)
+            );
+            if (msgType === "warning") {
+                msg.style.backgroundImage = "url(icons/warning.png)";
+                panel.style.backgroundColor = "red";
+            } 
+            else if (msgType === "chat") {
+                msg.style.backgroundImage = "url(icons/chat.png)";
+                panel.style.backgroundColor = "aqua";
+            } 
+            else {
+                msg.style.paddingLeft = "20px";
+            }
+        }
+    </script>
+</body>
+</html>
