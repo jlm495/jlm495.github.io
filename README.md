@@ -33,7 +33,7 @@
 * [WA5](/wa/wa5/wa5.html)
 * [WA6](/wa/wa6/wa6.html)
 * [WA7](/wa/wa7/wa7.html)
-* WA8
+* [WA8](/wa/wa8.html)
 * WA9
 * WA10
 * WA11
