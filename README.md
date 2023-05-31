@@ -3,7 +3,7 @@
 ## Projects
 
 * [HTML](/html-midterm)
-* CSS
+* [CSS](/index.html)
 * JS
 
 ## In-Class Assignments
@@ -15,7 +15,7 @@
 * [ICA5](/ica/ica5/ica5.html)
 * [ICA6](/ica/ica6/ica6.html)
 * [ICA7](/ica/ica7/ica7.html)
-* ICA8
+* [ICA8](/ica/ica8.html)
 * ICA9
 * ICA10
 * ICA11
