@@ -4,7 +4,7 @@
 
 * [HTML](/html-midterm)
 * [CSS](/index.html)
-* JS
+* [JS](/js-midterm.html)
 
 ## In-Class Assignments
 
