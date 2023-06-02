@@ -1,0 +1,130 @@
+html{
+
+    font-family:monospace;    
+}
+
+body{
+    background:url("/img/notebook-background.jpeg");
+
+}
+
+h1{
+
+    font-size:30px;
+    text-align: center;
+    
+    background:yellow;
+}
+
+
+math{
+    font-size: 60px;
+    position:absolute;
+    top:17%;
+    left:35%;
+    bottom:25%;
+    right:25%;
+    box-sizing:content-box;
+    width:500px;
+    font-family:fantasy;
+}
+
+#sqrt{
+
+    font-family:monospace;
+}
+
+.inSqrt{
+
+    font-family:fantasy;
+}
+
+#choose{
+
+    visibility: hidden;
+    position:absolute;
+    bottom:25%;
+    left:18%;
+    text-align: center;
+    font-family:"Chalkduster", fantasy;
+    box-sizing: content-box;
+    width:1200px;
+    font-size:20px;
+}
+
+#volume{
+
+    position:absolute;
+    top:45%;
+    left:50%;
+    box-sizing:content-box;
+    width:140px;
+    height: auto;
+    font-size:20px;
+    background:red;
+    color:white;
+}
+
+#error{
+
+    visibility:hidden;
+    position:absolute;
+    bottom:-3%;
+    color:black;
+    background:url("/img/tape.png") no-repeat;
+    background-size:900px 75px;
+    box-sizing:content-box;
+    width:1000px;
+    height:75px;
+    padding-left:70px;
+    padding-top:20px;
+    font-family:"Chalkduster", fantasy;
+    font-style: bold;
+    font-size: 20px;
+}
+
+p{
+
+    font-size:20px;
+    margin-bottom:20px;
+}
+
+#plus, #minus{
+
+    color:blue;
+    text-decoration: underline;
+}
+
+#oneA{
+    position:absolute;
+    top:22%;
+    left:3%;
+}
+
+#twoB{
+    position:absolute;
+    top:27%;
+    left:3%;
+}
+
+#threeC{
+    position:absolute;
+    top:32%;
+    left:3%;
+}
+
+#box{
+
+    box-sizing: border-box;
+    width:350px;
+    height:350px;
+    position:absolute;
+    left:-0.2%;
+    top:10%;
+    background:url("/img/sticky-note.png");
+}
+
+#one, #two, #three{
+
+    background:yellow;
+}

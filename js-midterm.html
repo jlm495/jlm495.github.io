@@ -5,44 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/js-midterm.css">
+    <script defer src="/js/js-midterm.js"></script>
 </head>
 <body>
+    <h1>Change the Volume by choosing numbers to replace variables <i>a</i>, <i>b</i>, & <i>c</i>.</h1>
+    
     <math>
         <mrow>
-            <mi>x</mi>
+            <mi>Volume</mi>
             <mo>=</mo>
             <mfrac>
               <mrow>
                 <mrow>
                   <mo>-</mo>
-                  <mi>b</mi>
+                  <mi id="b1">b</mi>
                 </mrow>
-                <mo>&PlusMinus;</mo>
-                <msqrt>
+                <mo>(&PlusMinus;</mo>
+                <msqrt id="sqrt">
                   <mrow>
                     <msup>
-                      <mi>b</mi>
-                      <mn>2</mn>
+                      <mi id="b2" class="inSqrt">b</mi>
+                      <mn class="inSqrt">2</mn>
                     </msup>
-                    <mo>-</mo>
+                    <mo class="inSqrt">-</mo>
                     <mrow>
-                      <mn>4</mn>
+                      <mn class="inSqrt">4</mn>
                       <mo>&InvisibleTimes;</mo>
-                      <mi>a</mi>
+                      <mi id="a1" class="inSqrt">a</mi>
                       <mo>&InvisibleTimes;</mo>
-                      <mi>c</mi>
+                      <mi id="c" class="inSqrt">c</mi>
                     </mrow>
                   </mrow>
                 </msqrt>
+                <mi>)</mi>
               </mrow>
               <mrow>
                 <mn>2</mn>
                 <mo>&InvisibleTimes;</mo>
-                <mi>a</mi>
+                <mi id="a2">a</mi>
               </mrow>
             </mfrac>
           </mrow>
           
     </math>
+
+    <div id="box"></div>
+        <p id="oneA"> Select value for a: <span id="one">number</span></p>
+        <p id="twoB"> Select value for b: <span id="two">number</span></p>
+        <p id="threeC"> Select value for c: <span id="three">number</span></p>
+
+        <button id="volume">Submit</button>
+
+        <h2 id="choose">You can either adjust your volume <span id="plus">_</span> or <span id="minus">_</span></h2>
+        <h2 id="error">ERROR: must select a number for each variable before submitting</h2>
+    
+    
 </body>
 </html>
